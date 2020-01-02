@@ -1,0 +1,13 @@
+.ui-form {
+
+}
+.ui-form-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    // justify-content: center;
+    .label {
+        // display: flex;
+        width: 80px;
+    }
+}

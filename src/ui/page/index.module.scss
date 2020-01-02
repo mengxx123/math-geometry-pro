@@ -1,0 +1,36 @@
+.side {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 255px;
+    right: 0;
+    bottom: 0;
+    border-right: 1px solid rgba(0,0,0,.12);
+    transition: all .45s cubic-bezier(.23,1,.32,1);
+    .header {
+        padding: 40px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    }
+    .logo {
+        display: block;
+        width: 80px;
+        margin: 0 auto;
+    }
+    .body {
+
+    }
+}
+.main {
+    padding-left: 256px;
+    overflow: hidden;
+    transition: all .45s cubic-bezier(.23,1,.32,1);
+}
+.list {
+    .listItem {
+        height: 48px;
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        // border: 1px solid #000;
+    }
+}

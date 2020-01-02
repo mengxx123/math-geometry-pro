@@ -1,0 +1,70 @@
+.appBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.side {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 255px;
+    right: 0;
+    bottom: 0;
+    border-right: 1px solid rgba(0,0,0,.12);
+    transition: all .45s cubic-bezier(.23,1,.32,1);
+}
+.sideContent {
+    .header {
+        padding: 40px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    }
+    .logo {
+        display: block;
+        width: 80px;
+        margin: 0 auto;
+    }
+    .body {
+
+    }
+}
+.main {
+    padding-top: 64px;
+    padding-left: 256px;
+    overflow: hidden;
+    transition: all .45s cubic-bezier(.23,1,.32,1);
+}
+.list {
+    .listItem {
+        
+        // border: 1px solid #000;
+    }
+    .content {
+        display: block;
+        transition: background-color .2s ease 0s,color .2s ease 0s,width .2s ease 0s,border-width .2s ease 0s,border-color .2s ease 0s;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        padding: 16px;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(0, 0, 0, .1);
+            // background: #000;
+        }
+    }
+    .link {
+        display: block;
+    }
+    .icon {
+        margin-right: 16px;
+        font-size: 20px;
+        color: #666;
+    }
+    .title {
+        color: rgba(0, 0, 0, .87);
+    }
+}
+.drawer {
+    width: 256px;
+}

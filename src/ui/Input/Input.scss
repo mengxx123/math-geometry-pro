@@ -1,0 +1,14 @@
+.ui-input-input {
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    height: 32px;
+    line-height: 32px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    &.ui-focus {
+        border-bottom: 1px solid #4285f4;
+    }
+}

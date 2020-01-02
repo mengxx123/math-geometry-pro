@@ -1,0 +1,35 @@
+
+.ui-btn {
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    color: #333;
+    display: inline-block;
+    padding: 6px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+        // color: #000;
+        opacity: .8;
+    }
+    &:active {
+        color: #fff;
+        background: #000;
+        border: 1px solid #000;
+        outline: none;
+    }
+    &:focus {
+        // color: #000;
+        border: 1px solid #000;
+        outline: none;
+    }
+}
+.ui-button-primary {
+    color: #fff;
+    border: 1px solid #4285f4;
+    background: #4285f4;
+}
+.ui-buttons {
+    .ui-btn {
+        margin-right: 8px;
+    }
+}
